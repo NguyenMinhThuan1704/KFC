@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet" href="./assets/css/base.css">
+        <link rel="stylesheet" href="./assets/css/main.css">
+        <link rel="stylesheet" href="./assets/css/grid.css">
+        <link rel="stylesheet" href="./assets/css/responsive.css">
+        <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.3.0-web/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="app">
+            <header class="header">
+                <div class="grid wide">
+                    <nav class="header__nav">
+                        <div class="header__nav-list">
+                            <a href="/" class="header__logo">
+                                <img class="header__logo-img" src="./assets/img/header/logo.png" alt="">
+                            </a>
+                            
+                            <ul class="header__nav-lists">
+                                <li class="header__nav-item">
+                                    <a href="./index_menu.html" class="list__item-option-link">
+                                        THỰC ĐƠN
+                                    </a>
+                                </li>
+                            </ul>
+
+                            <ul class="header__nav-lists">
+                                <li class="header__nav-item">
+                                    <a href="./index_menu.html" class="list__item-option-link">
+                                        KHUYẾN MÃI
+                                    </a>
+                                </li>
+                            </ul>
+
+                            <ul class="header__nav-lists">
+                                <li class="header__nav-item">
+                                    <a href="" class="list__item-option-link">
+                                        HỆ THỐNG NHÀ HÀNG
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="header__nav-list">
+                            <div class="header__nav-list-item">
+                                <div class="list__item-option">
+                                    <i class="fa-solid fa-circle-user"></i>
+                                </div>
+                                <a style="text-decoration: none;" href="" class="">
+                                    <div class="list__item-option">
+                                        <i class="item-option-cart fa-solid fa-cart-shopping"></i>
+                                    </div>
+                                </a>
+                                <label for="nav-pc-input" class="list__item-option">
+                                    <i class="fa-solid fa-bars"></i>
+                                </label>
+                                
+                                <input type="checkbox" hidden name="" class="nav__input" id="nav-pc-input">
+
+                                <label for="nav-pc-input" class="nav__overlay"></label>
+
+                                <div class="header__nav-pc-list-item">
+                                    <div class="bars-wrapper">
+                                        <div class="bars-top">
+                                            <label for="nav-pc-input" class="nav__pc-close">
+                                                <i class="fa-solid fa-xmark"></i>
+                                            </label>
+                                        </div>
+                                        <a style="text-decoration: none;" href="" class="nav_cart">
+                                            <div class="list__item-option">
+                                                <i style="margin-top: 8px;" class="item-option-cart fa-solid fa-cart-shopping"></i>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    
+                                    <div class="pc-list-wrapper">
+                                        <div class="pc-list-wrapper-item">
+                                            <ul class="nav__pc-list">
+                                                <li class="nav_pc-item">
+                                                    <h1>DANH MỤC MÓN ĂN</h1>
+                                                </li>
+                                                <li class="nav_pc-item">
+                                                    <a href="" class="nav__pc-link">Món mới</a>
+                                                </li>
+                                                <li class="nav_pc-item">
+                                                    <a href="" class="nav__pc-link">Combo 1 Người</a>
+                                                </li>
+                                                <li class="nav_pc-item">
+                                                    <a href="" class="nav__pc-link">Combo Nhóm</a>
+                                                </li>
+                                                <li class="nav_pc-item">
+                                                    <a href="" class="nav__pc-link">Gà Rán - Gà Quay</a>
+                                                </li>
+                                                <li class="nav_pc-item">
+                                                    <a href="" class="nav__pc-link">Burger - Cơm - Mì Ý</a>
+                                                </li>
+                                                <li class="nav_pc-item">
+                                                    <a href="" class="nav__pc-link">Thức Ăn Nhẹ</a>
+                                                </li>
+                                                <li class="nav_pc-item">
+                                                    <a href="" class="nav__pc-link">Thức Uống & Tráng Miệng</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="pc-list-wrapper-item">
+                                            <ul class="nav__pc-list">
+                                                <li class="nav_pc-item">
+                                                    <h1>VỀ KFC</h1>
+                                                </li>
+                                                <li class="nav_pc-item">
+                                                    <a href="" class="nav__pc-link">Câu Chuyện Của Chúng Tôi</a>
+                                                </li>
+                                                <li class="nav_pc-item">
+                                                    <a href="" class="nav__pc-link">Tin Khuyến Mãi</a>
+                                                </li>
+                                                <li class="nav_pc-item">
+                                                    <a href="" class="nav__pc-link">Tin Tức KFC</a>
+                                                </li>
+                                                <li class="nav_pc-item">
+                                                    <a href="" class="nav__pc-link">Tuyển Dụng</a>
+                                                </li>
+                                                <li class="nav_pc-item">
+                                                    <a href="" class="nav__pc-link">Đặt Tiệc Sinh Nhật</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="pc-list-wrapper-item">
+                                            <ul class="nav__pc-list">
+                                                <li class="nav_pc-item">
+                                                    <h1>LIÊN HỆ KFC</h1>
+                                                </li>
+                                                <li class="nav_pc-item">
+                                                    <a href="" class="nav__pc-link">Theo Dõi Đơn Hàng</a>
+                                                </li>
+                                                <li class="nav_pc-item">
+                                                    <a href="" class="nav__pc-link">Liên Hệ KFC</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="pc-list-wrapper-item">
+                                            <ul class="nav__pc-list">
+                                                <li class="nav_pc-item">
+                                                    <h1>CHÍNH SÁCH</h1>
+                                                </li>
+                                                <li class="nav_pc-item">
+                                                    <a href="" class="nav__pc-link">Chính Sách Hoạt Động</a>
+                                                </li>
+                                                <li class="nav_pc-item">
+                                                    <a href="" class="nav__pc-link">Chính Sách Và Quy Định</a>
+                                                </li>
+                                                <li class="nav_pc-item">
+                                                    <a href="" class="nav__pc-link">Chính Sách Bảo Mật Thông Tin</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="mb_list-wrapper">
+                                        <div class="pc-list-wrapper-item">
+                                            <ul class="nav__mb-list">
+                                                <li class="nav_mb-item-text">
+                                                    <h1 style="font-size: 3.6rem;">BẮT ĐẦU</h1>
+                                                    <div style="display: flex;">
+                                                        <a style="font-size: 1.4rem; text-decoration: none; color: #000; font-weight: 500;" href="">Đăng nhập</a>
+                                                        <a style="font-size: 1.4rem; text-decoration: none; color: #000; font-weight: 500;" href="">/Đăng ký</a>
+
+                                                    </div>
+                                                </li>
+                                                <li class="nav_mb-item">
+                                                    <a href="" class="nav__mb-link">
+                                                        <span class="nav__mb-text">THỰC ĐƠN</span>
+                                                        <img src="./assets/img/header/menu.png" alt="" class="nav__pc-img">
+                                                    </a>
+                                                </li>
+                                                <li class="nav_mb-item">
+                                                    <a href="" class="nav__mb-link">
+                                                        <span class="nav__mb-text">KHUYẾN MÃI</span>
+                                                        <img src="./assets/img/header/deal.png" alt="" class="nav__pc-img">
+                                                    </a>
+                                                </li>
+                                                <li class="nav_mb-item">
+                                                    <a href="" class="nav__mb-link">
+                                                        <span class="nav__mb-text">HỆ THỐNG NHÀ HÀNG</span>
+                                                        <img src="./assets/img/header/find-kfc.png" alt="" class="nav__pc-img">
+                                                    </a>
+                                                </li>
+                                                <li class="nav_mb-item">
+                                                    <a href="" class="nav__mb-link">
+                                                        <span class="nav__mb-text">VỀ KFC</span>
+                                                        <img src="./assets/img/header/about-kfc.png" alt="" class="nav__pc-img">
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="footer__nav">
+                                        <div class="footer__nav-wrap">
+                                            <div class="footer__nav-wrap-list">
+                                                <a href="" class="footer__nav-wrap-link-icon">
+                                                    <i class="footer__nav-wrap-item-icon fa-brands fa-facebook"></i>
+                                                </a>
+                                            </div>
+                                            <div class="footer__nav-wrap-list">
+                                                <a href="" class="footer__nav-wrap-link-icon">
+                                                    <i class="footer__nav-wrap-item-icon fa-brands fa-instagram"></i>
+                                                </a>
+                                            </div>
+                                            <div class="footer__nav-wrap-list">
+                                                <a href="" class="footer__nav-wrap-link-icon">
+                                                    <i class="footer__nav-wrap-item-icon fa-brands fa-youtube"></i>
+                                                </a>
+                                            </div>
+                                            <div class="footer__nav-wrap-list">
+                                                <a href="" class="footer__nav-wrap-link-icon">
+                                                    <i class="footer__nav-wrap-item-icon fa-brands fa-twitter"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <p class="footer__nav-text">
+                                            Copyright © 2023 KFC Vietnam
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+
+            <div class="slide">
+                <div class="slide__top">
+                    <p class="slide__top-text">
+                        <span class="child__first">
+                            Đặt ngay
+                        </span>
+                        <span class="child__second">
+                            <i class="child__second-icon fa-solid fa-motorcycle"></i>
+                            Giao hàng
+                        </span>
+                        <span class="child__last">
+                            <i class="child__last-icon fa-solid fa-bag-shopping"></i>
+                            hoặc mang đi
+                        </span>
+                    </p>
+                    <button class="slide__top-button">
+                        Bắt đầu đặt hàng
+                    </button>
+                </div>
+                <div class="slide__bot">
+                    <div class="slider-wrapper">
+                        <div class="slider-main">
+                            <div class="slider-item">
+                                <a class="slider-link" href="">
+                                    <img src="./assets/img/slide/slide1.webp" alt="" id="img" class="slider-img">
+                                </a>
+                            </div>
+                            <div class="slider-item">
+                                <a class="slider-link" href="">
+                                    <img src="./assets/img/slide/slide2.webp" alt="" id="img" class="slider-img">
+                                </a>
+                            </div>
+                            <div class="slider-item">
+                                <a class="slider-link" href="">
+                                    <img src="./assets/img/slide/slide3.webp" alt="" id="img" class="slider-img">
+                                </a>
+                            </div>
+                            <div class="slider-item">
+                                <a class="slider-link" href="">
+                                    <img src="./assets/img/slide/slide4.webp" alt="" id="img" class="slider-img">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="slide__bot-btn-left">
+                        <i class="slide__bot-prev fa-solid fa-angle-left" onclick="prev()"></i>
+                    </div>
+                    <div class="slide__bot-btn-right">
+                        <i class="slide__bot-next fa-solid fa-angle-right" onclick="next()"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="app__container grid wide">
+                <div class="menu__wrapper">
+                    <h2 class="container__text">
+                        <span>DANH MỤC MÓN ĂN</span>
+                    </h2>
+
+                    <div class="home__product">
+                        <div class="row">
+                            <!-- product item -->
+                            <div class="home-product-list col l-3 m-4 c-6">
+                                <a class="home-product-item-top" href="./index_menu.html">
+                                   <div class="home-product-item__img">
+                                        <img src="./assets/img/container/MONMOI.jpg" alt="" class="image">
+                                   </div>
+                                   <div class="home-product-item__name">
+                                           Món Mới
+                                           <i class="fa-solid fa-angle-right"></i>
+                                   </div>
+                                </a>
+                            </div>
+
+                            <div class="home-product-list col l-3 m-4 c-6">
+                                <a class="home-product-item-top" href="./index_menu.html">
+                                    <div class="home-product-item__img">
+                                        <img src="./assets/img/container/COMBO 1 NGUOI.jpg" alt="" class="image">
+                                   </div>
+                                   <div class="home-product-item__name">
+                                           Combo 1 Người
+                                           <i class="fa-solid fa-angle-right"></i>
+                                   </div>
+                                </a>
+                            </div>
+
+                            <div class="home-product-list col l-3 m-4 c-6">
+                                <a class="home-product-item-top" href="./index_menu.html">
+                                    <div class="home-product-item__img">
+                                        <img src="./assets/img/container/COMBO NHOM.jpg" alt="" class="image">
+                                   </div>
+                                   <div class="home-product-item__name">
+                                           Combo Nhóm
+                                           <i class="fa-solid fa-angle-right"></i>
+                                   </div>
+                                </a>
+                            </div>
+
+                            <div class="home-product-list col l-3 m-4 c-6">
+                                <a class="home-product-item-top" href="./index_menu.html">
+                                    <div class="home-product-item__img">
+                                        <img src="./assets/img/container/GA.jpg" alt="" class="image">
+                                   </div>
+                                   <div class="home-product-item__name">
+                                           Gà Rán - Gà Quay
+                                           <i class="fa-solid fa-angle-right"></i>
+                                   </div>
+                                </a>
+                            </div>
+
+                            <div class="home-product-list col l-3 m-4 c-6">
+                                <a class="home-product-item-top" href="./index_menu.html">
+                                    <div class="home-product-item__img">
+                                        <img src="./assets/img/container/COM.jpg" alt="" class="image">
+                                   </div>
+                                   <div class="home-product-item__name">
+                                           Burger - Cơm - Mỳ Ý
+                                           <i class="fa-solid fa-angle-right"></i>
+                                   </div>
+                                </a>
+                            </div>
+
+                            <div class="home-product-list col l-3 m-4 c-6">
+                                <a class="home-product-item-top" href="./index_menu.html">
+                                    <div class="home-product-item__img">
+                                        <img src="./assets/img/container/MON AN NHE.jpg" alt="" class="image">
+                                   </div>
+                                   <div class="home-product-item__name">
+                                           Thức Ăn Nhẹ
+                                           <i class="fa-solid fa-angle-right"></i>
+                                   </div>
+                                </a>
+                            </div>
+
+                            <div class="home-product-list col l-3 m-4 c-6">
+                                <a class="home-product-item-top" href="./index_menu.html">
+                                    <div class="home-product-item__img">
+                                        <img src="./assets/img/container/TRANG MIENG.jpg" alt="" class="image">
+                                   </div>
+                                   <div class="home-product-item__name">
+                                           Thức Uống Và Tráng Miệng
+                                           <i class="fa-solid fa-angle-right"></i>
+                                   </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu__wrapper">
+                    <h2 class="container__text-bot">
+                        <span>CÓ THỂ BẠN SẼ THÍCH MÓN NÀY</span>
+                    </h2>
+
+                    <div class="home_product-bot">
+                        <div class="row">
+                            <ul class="product-list">
+                                <li class="home-product-list-bot col l-4 m-12 c-6">
+                                    <div class="home-product-item-bot" href="#">
+                                        <div class="home-product-item__img-bot">
+                                            <img src="./assets/img/container_bot/cb1.jpg" alt="" class="image">
+                                       </div>
+                                       <div class="home-product-item__name-bot">
+                                            <div class="home-product-item-title">
+                                                <div class="item-title-name">
+                                                    Combo Nhóm 1
+                                                </div>
+                                                <div class="item-title-name">
+                                                    175.000₫
+                                                </div>
+                                            </div>
+                                            <h4 class="item-title-text">3 Miếng Gà Rán + 1 Burger Tôm + 2 Lon Pepsi</h4>
+                                        </div>
+                                        <div class="item-title-add">
+                                            <a href="" class="item-title-link">Thêm</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="home-product-list-bot col l-4 m-12 c-6">
+                                    <div class="home-product-item-bot" href="#">
+                                        <div class="home-product-item__img-bot">
+                                            <img src="./assets/img/container_bot/cb2.jpg" alt="" class="image">
+                                       </div>
+                                       <div class="home-product-item__name-bot">
+                                            <div class="home-product-item-title">
+                                                <div class="item-title-name">
+                                                    Combo Nhóm 2
+                                                </div>
+                                                <div class="item-title-name">
+                                                    195.000₫
+                                                </div>
+                                            </div>
+                                            <h4 class="item-title-text">4 Miếng Gà Giòn Cay / 4 Miếng Gà Giòn Không Cay / 4 Miếng Gà Truyền thống + 1 Khoai tây chiên lớn / 2 Thanh Bí Phô-mai + 2 Pepsi Lon</h4>
+                                        </div>
+                                        <div class="item-title-add">
+                                            <a href="" class="item-title-link">Thêm</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="home-product-list-bot col l-4 m-12 c-6">
+                                    <div class="home-product-item-bot" href="#">
+                                        <div class="home-product-item__img-bot">
+                                            <img src="./assets/img/container_bot/cb3.jpg" alt="" class="image">
+                                       </div>
+                                       <div class="home-product-item__name-bot">
+                                            <div class="home-product-item-title">
+                                                <div class="item-title-name">
+                                                    Combo Nhóm 3
+                                                </div>
+                                                <div class="item-title-name">
+                                                    232.000₫
+                                                </div>
+                                            </div>
+                                            <h4 class="item-title-text">5 Miếng Gà Giòn Cay / 5 Miếng Gà Giòn Không Cay / 5 Miếng Gà Truyền Thống+ 1 Popcorn (Vừa) / 4 Gà Miếng Nuggets+ 2 Pepsi Lon</h4>
+                                        </div>
+                                        <div class="item-title-add">
+                                            <a href="" class="item-title-link">Thêm</a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <!-- product item -->
+                            <!-- <div class="home-product-list-bot col l-4">
+                                <div class="home-product-item-bot" href="#">
+                                    <div class="home-product-item__img-bot">
+                                        <img src="./assets/img/container_bot/cb1.jpg" alt="" class="image">
+                                   </div>
+                                   <div class="home-product-item__name-bot">
+                                        <div class="home-product-item-title">
+                                            <div class="item-title-name">
+                                                Combo Nhóm 1
+                                            </div>
+                                            <div class="item-title-name">
+                                                175.000₫
+                                            </div>
+                                        </div>
+                                        <h4 class="item-title-text">3 Miếng Gà Rán + 1 Burger Tôm + 2 Lon Pepsi</h4>
+                                    </div>
+                                    <div class="item-title-add">
+                                        <a href="" class="item-title-link">Thêm</a>
+                                    </div>
+                                </div>
+                            </div> -->
+                            <!-- <div class="home-product-list-bot col l-4">
+                                <div class="home-product-item-bot" href="#">
+                                    <div class="home-product-item__img-bot">
+                                        <img src="./assets/img/container_bot/cb2.jpg" alt="" class="image">
+                                   </div>
+                                   <div class="home-product-item__name-bot">
+                                        <div class="home-product-item-title">
+                                            <div class="item-title-name">
+                                                Combo Nhóm 2
+                                            </div>
+                                            <div class="item-title-name">
+                                                195.000₫
+                                            </div>
+                                        </div>
+                                        <h4 class="item-title-text">4 Miếng Gà Giòn Cay / 4 Miếng Gà Giòn Không Cay / 4 Miếng Gà Truyền thống + 1 Khoai tây chiên lớn / 2 Thanh Bí Phô-mai + 2 Pepsi Lon</h4>
+                                    </div>
+                                    <div class="item-title-add">
+                                        <a href="" class="item-title-link">Thêm</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="home-product-list-bot col l-4">
+                                <div class="home-product-item-bot" href="#">
+                                    <div class="home-product-item__img-bot">
+                                        <img src="./assets/img/container_bot/cb3.jpg" alt="" class="image">
+                                   </div>
+                                   <div class="home-product-item__name-bot">
+                                        <div class="home-product-item-title">
+                                            <div class="item-title-name">
+                                                Combo Nhóm 3
+                                            </div>
+                                            <div class="item-title-name">
+                                                232.000₫
+                                            </div>
+                                        </div>
+                                        <h4 class="item-title-text">5 Miếng Gà Giòn Cay / 5 Miếng Gà Giòn Không Cay / 5 Miếng Gà Truyền Thống+ 1 Popcorn (Vừa) / 4 Gà Miếng Nuggets+ 2 Pepsi Lon</h4>
+                                    </div>
+                                    <div class="item-title-add">
+                                        <a href="" class="item-title-link">Thêm</a>
+                                    </div>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="banner">
+                <img src="./assets/img/banner/banner.jpg" alt="">
+            </div>
+
+            <footer class="footer">
+                <div class="grid wide footer__content">
+                    <div class="row">
+                        <div class="footer__gt col l-2-4 m-4 c-12">
+                            <h3 class="footer__heading">Danh Mục Món Ăn</h3>
+                            <ul class="footer__list">
+                                <li class="footer__list-item">
+                                    <a href="" class="footer__list-item-link">Món Mới</a>
+                                </li>
+                                <li class="footer__list-item">
+                                    <a href="" class="footer__list-item-link">Combo 1 Người</a>
+                                </li>
+                                <li class="footer__list-item">
+                                    <a href="" class="footer__list-item-link">Combo Nhóm</a>
+                                </li>
+                                <li class="footer__list-item">
+                                    <a href="" class="footer__list-item-link">Gà Rán - Gà Quay</a>
+                                </li>
+                                <li class="footer__list-item">
+                                    <a href="" class="footer__list-item-link">Burger - Cơm - Mì Ý</a>
+                                </li>
+                                <li class="footer__list-item">
+                                    <a href="" class="footer__list-item-link">Thức Ăn Nhẹ</a>
+                                </li>
+                                <li class="footer__list-item">
+                                    <a href="" class="footer__list-item-link">Thức Uống & Tráng Miệng</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer__gt col l-2-4 m-4 c-12">
+                            <h3 class="footer__heading">Về KFC</h3>
+                            <ul class="footer__list">
+                                <li class="footer__list-item">
+                                    <a href="" class="footer__list-item-link">Câu Chuyện Của Chúng Tôi</a>
+                                </li>
+                                <li class="footer__list-item">
+                                    <a href="" class="footer__list-item-link">Tin Khuyến Mãi</a>
+                                </li>
+                                <li class="footer__list-item">
+                                    <a href="" class="footer__list-item-link">Tin tức KFC</a>
+                                </li>
+                                <li class="footer__list-item">
+                                    <a href="" class="footer__list-item-link">Tuyển dụng</a>
+                                </li>
+                                <li class="footer__list-item">
+                                    <a href="" class="footer__list-item-link">Đặt tiệc Sinh nhật</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer__gt col l-2-4 m-4 c-12">
+                            <h3 class="footer__heading">Liên Hệ KFC</h3>
+                            <ul class="footer__list">
+                                <li class="footer__list-item">
+                                    <a href="" class="footer__list-item-link">Theo dõi đơn hàng</a>
+                                </li>
+                                <li class="footer__list-item">
+                                    <a href="" class="footer__list-item-link">Hệ Thống Nhà Hàng</a>
+                                </li>
+                                <li class="footer__list-item">
+                                    <a href="" class="footer__list-item-link">Liên hệ KFC</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer__gt col l-2-4 m-4 c-12">
+                            <h3 class="footer__heading">Chính Sách</h3>
+                            <ul class="footer__list">
+                                <li class="footer__list-item">
+                                    <a href="" class="footer__list-item-link">Chính sách hoạt động</a>
+                                </li>
+                                <li class="footer__list-item">
+                                    <a href="" class="footer__list-item-link">Chính sách và quy định</a>
+                                </li>
+                                <li class="footer__list-item">
+                                    <a href="" class="footer__list-item-link">Chính sách bảo mật thông tin</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer__gt col l-2-4 m-4 c-12">
+                            <h3 class="footer__heading">Download App</h3>
+                            <div class="footer__download">
+                                <div class="footer__download-apps">
+                                    <a href="" class="footer__download-app-link">
+                                        <img src="./assets/img/footer/logo_playstore.png" alt="Google play" class="footer__download-app-img">
+                                    </a>
+                                    <a href="" class="footer__download-app-link">
+                                        <img src="./assets/img/footer/logo_appstore.png" alt="App store" class="footer__download-app-img">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="footer__social-link">
+                            <p class="social-link-text">
+                                Copyright © 2023 KFC Vietnam
+                            </p>
+                            <div class="social-link-lists">
+                                <div class="social-link-list">
+                                    <a href="" class="social-link-list-item">
+                                        <i class="social-icon fa-brands fa-facebook"></i>
+                                    </a>
+                                </div>
+                                <div class="social-link-list">
+                                    <a href="" class="social-link-list-item">
+                                        <i class="social-icon fa-brands fa-instagram"></i>
+                                    </a>
+                                </div>
+                                <div class="social-link-list">
+                                    <a href="" class="social-link-list-item">
+                                        <i class="social-icon fa-brands fa-youtube"></i>
+                                    </a>
+                                </div>
+                                <div class="social-link-list">
+                                    <a href="" class="social-link-list-item">
+                                        <i class="social-icon fa-brands fa-twitter"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="footer__text">
+                            <div class="footer__text-left l-6 m-6 c-12">
+                                <h2 class="company-name">CÔNG TY LIÊN DOANH TNHH KFC VIỆT NAM</h2>
+                                <div class="infomation-company">Số 292 Bà Triệu, P. Lê Đại Hành, Q. Hai Bà Trưng, TP. Hà Nội.</div>
+                                <div class="infomation-company">Điện thoại: (028) 38489828</div>
+                                <div class="infomation-company">Email: lienhe@kfcvietnam.com.vn</div>
+                                <div class="infomation-company">Mã số thuế: 0100773885</div>
+                                <div class="infomation-company">Ngày cấp: 29/10/1998 - Nơi cấp: Cục Thuế Thành Phố Hà Nội</div>
+                            </div>
+                            <div class="footer__text-right l-6 m-6 c-12">
+                                <a href="" class="logo__footer-link">
+                                    <img src="./assets/img/footer/logo_footer.png" alt="" class="logo__footer-img">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <script src="./main.js"></script>
+    </body>
+</html>

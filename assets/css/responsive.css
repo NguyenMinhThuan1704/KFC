@@ -1,0 +1,103 @@
+/* Mobile & Tablet */
+@media only screen and (max-width: 63.9375em) {
+
+}
+
+/* Mobile: width < 740px */
+@media only screen and (max-width: 46.1875em) {
+    .app{
+        overflow: hidden;
+    }
+    .header__nav-lists {
+        display: none;
+    }
+    .home_product-bot {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+    }
+    .header__nav-pc-list-item{
+        width: 100%;
+    }
+    .nav_cart{
+        display: block;
+    }
+    .pc-list-wrapper{
+        display: none;
+    }
+    .mb_list-wrapper {
+        display: block;
+    }
+    .bars-top::before{
+        left: 185px;
+    }
+    .slide__bot-btn-left,
+    .slide__bot-btn-right{
+        display: none;
+    }
+    .home-product-list-bot::marker {
+        display: none;
+    }
+    .footer__text-right{
+        display: none;
+    }
+    .slide__top {
+        display: none;
+    }
+    .banner img {
+        margin-top: 27px;
+        width: 190%;
+        height: 200px;
+        object-fit: cover;
+    }
+    .footer__gt {
+        padding: 10px 0px 10px 30px;
+        border-bottom: 0.2px solid #494949;
+    }
+    .footer{
+        padding-top: 10px;
+    }
+    .footer__download-app-link {
+        margin: 0px 17px;
+    }
+    .footer__social-link {
+        padding-top: 10px;
+    }
+    .footer__text-right{
+        display: none;
+    }
+    .footer__text {
+        height: 450px;
+    }
+    .footer__text-left{
+        padding: 0px 7px;
+        font-size: 2.6rem;
+        line-height: 4.2rem;
+    }
+    .infomation-company {
+        font-size: 1.6rem;
+        padding: 7px;
+        line-height: 3.2rem;
+    }
+}
+
+/* Tablet: width >= 740px and width < 1024px */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    .app{
+        overflow: hidden;
+    }
+    .header .wide {
+        width: auto;
+    }
+    .header__nav-pc-list-item{
+        width: 50%;
+    }
+    .app__container.wide{
+        width: auto;
+    }
+    .home_product-bot {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+    }
+}
