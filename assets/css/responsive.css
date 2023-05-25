@@ -58,7 +58,7 @@
         padding-top: 10px;
     }
     .footer__download-app-link {
-        margin: 0px 17px;
+        margin: 0px 15px;
     }
     .footer__social-link {
         padding-top: 10px;
@@ -79,6 +79,19 @@
         padding: 7px;
         line-height: 3.2rem;
     }
+    .footer__social-link{
+        display: block;
+        height: 125px;
+    }
+    .social-link-text,
+    .social-link-lists{
+        margin-left: 28%;
+        width: 50%;
+    }
+    .social-link-lists{
+        padding-top: 20px;
+    }
+
 }
 
 /* Tablet: width >= 740px and width < 1024px */
