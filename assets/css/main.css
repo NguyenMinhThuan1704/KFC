@@ -497,7 +497,7 @@
 
 .container__text span {
     background: #fff;
-    display: inline-block;
+    display: inline-block;  
     position: relative;
     padding-right: 1rem;
 }
@@ -554,7 +554,7 @@
 .home-product-item__img {
     overflow: hidden;
     max-height: 223px;
-    /* height: 223px; */
+    height: 223px;
     width: 100%;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
@@ -768,7 +768,7 @@
 
 .social-link-list-item {
     position: relative;
-    z-index: 1;
+    /* z-index: 1; */
     text-decoration: none;
     color: var(--white-color);
     position: absolute;
@@ -1118,4 +1118,9 @@ input:focus {
     color: #000;
     font-weight: 600;
     margin-left: 5px;
+    text-decoration: none;
+}
+
+.register a:hover {
+    text-decoration: underline;
 }

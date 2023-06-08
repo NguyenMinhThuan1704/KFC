@@ -66,5 +66,4 @@ function next() {
     else index = index + 1;
     list[index].style.display= 'block';
 }
-
-setTimeout(prev, 5000); 
+setTimeout(next, 2000); 

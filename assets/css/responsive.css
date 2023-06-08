@@ -35,8 +35,14 @@
     .slide__bot-btn-right{
         display: none;
     }
+    .product-list {
+        list-style: none;
+    }
     .home-product-list-bot::marker {
         display: none;
+    }
+    .home-product-item__img{
+        height: auto;
     }
     .footer__text-right{
         display: none;
@@ -44,6 +50,7 @@
     .slide__top {
         display: none;
     }
+    
     .banner img {
         margin-top: 27px;
         width: 190%;
